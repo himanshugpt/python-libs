@@ -21,7 +21,7 @@ except ImportError:
 SCOPES = ['https://www.googleapis.com/auth/drive', 'https://www.googleapis.com/auth/spreadsheets']
 credentials = ServiceAccountCredentials.from_json_keyfile_name('project.json', SCOPES)
 CLIENT_SECRET_FILE = 'project.json'
-APPLICATION_NAME = 'File Downloader OKR'
+APPLICATION_NAME = 'File Downloader'
 
 
 def get_credentials():
