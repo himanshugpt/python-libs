@@ -3,6 +3,8 @@ import json
 
 '''
 POST request example using python 2.7 
+can be done using curl
+curl -v -H "X-ApiKey: xxx" -H "Content-Type: application/json" --data '{"k1":"v1", "k2":"v2"}'  http://localhost:5000/api/rest/1/...
 
 '''
 url = 'http://localhost:5000/api/rest' 
